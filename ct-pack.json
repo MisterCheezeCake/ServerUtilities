@@ -1,0 +1,8 @@
+{
+    "$schema": "put this here later",
+    "purge": [
+        "config.toml",
+        ".git",
+        ".gitignore"
+    ]
+}

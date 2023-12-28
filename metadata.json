@@ -1,0 +1,9 @@
+{
+    "name": "ServerUtilities",
+    "creator": "CheezeCake",
+    "description": "A simple utilities allowing modules to host a server on localhost for various purposes",
+    "requires": [],
+    "helpMessage": "",
+    "isRequired": true,
+    "version": "0.1.0"
+}
