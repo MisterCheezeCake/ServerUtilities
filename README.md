@@ -6,11 +6,13 @@ ServerUtilities is a module that provides an express like abstraction on top of 
 
 ```js
 import HTTPServer from "../ServerUtilities";
-const server = new new HTTPServer();
+const server = new HTTPServer();
 
 server.get("/", (req, res) => {
     res.status(200).send("Hello World")
 })
+
+server.listen(8080)
 ```
 A more detailed example can be found in example.js
 
